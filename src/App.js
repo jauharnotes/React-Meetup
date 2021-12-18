@@ -1,6 +1,7 @@
 // import { Route, Switch } from "react-router-dom";
 
-import Effect from "./hook/Effect";
+// import Effect from "./hook/Effect";
+import { PreviousState } from "./hook/PreviousState";
 // import State from "./hook/State";
 
 // import AllMeetupsPage from "./pages/AllMeetups";
@@ -12,7 +13,8 @@ function App() {
   return (
     <>
       {/* <State /> */}
-      <Effect />
+      {/* <Effect /> */}
+      <PreviousState />
     </>
     // <Layout>
     //   {/* <MainNavigation /> */}
